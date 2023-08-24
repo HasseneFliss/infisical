@@ -233,13 +233,6 @@ mongodb:
   ## @param mongodb.readinessProbe.failureThreshold Failure threshold for readinessProbe
   ## @param mongodb.readinessProbe.successThreshold Success threshold for readinessProbe
   ##
-  readinessProbe:
-    enabled: true
-    initialDelaySeconds: 5
-    periodSeconds: 10
-    timeoutSeconds: 10
-    failureThreshold: 6
-    successThreshold: 1
   ## @param mongodb.service.annotations Service annotations
   ##
   service:
