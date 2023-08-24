@@ -148,13 +148,13 @@ backendEnvironmentVariables:
   ## @param backendEnvironmentVariables.SMTP_USERNAME **Required** Credential to connect to host (e.g. team@infisical.com)
   ## @param backendEnvironmentVariables.SMTP_PASSWORD **Required** Credential to connect to host
   ##
-  SMTP_HOST: ""
+  SMTP_HOST: "smtp.office365.com"
   SMTP_PORT: 587
-  SMTP_SECURE: false
+  SMTP_SECURE: true
   SMTP_FROM_NAME: Infisical
-  SMTP_FROM_ADDRESS: ""
-  SMTP_USERNAME: ""
-  SMTP_PASSWORD: ""
+  SMTP_FROM_ADDRESS: "hassen.fliss@avaxia-group.com"
+  SMTP_USERNAME: "hassen.fliss@avaxia-group.com"
+  SMTP_PASSWORD: "rollway31@"
   ## @param backendEnvironmentVariables.SITE_URL Absolute URL including the protocol (e.g. https://app.infisical.com)
   ##
   SITE_URL: infisical.local
