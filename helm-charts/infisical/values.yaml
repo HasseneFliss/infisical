@@ -75,7 +75,6 @@ backend:
   ## @param backend.enabled Enable backend
   ##
   enabled: true
-  ## @param backend.name Backend name
   ##
   name: backend
   ## @param backend.fullnameOverride Backend fullnameOverride
@@ -303,7 +302,7 @@ mongodbConnection:
 ingress:
   ## @param ingress.enabled Enable ingress
   ##
-  enabled: true
+  enabled: false
   ## @param ingress.ingressClassName Ingress class name
   ##
   ingressClassName: nginx
