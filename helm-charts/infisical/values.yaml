@@ -295,7 +295,7 @@ mongodbConnection:
 ingress:
   ## @param ingress.enabled Enable ingress
   ##
-  enabled: false
+  enabled: true
   ## @param ingress.ingressClassName Ingress class name
   ##
   ingressClassName: nginx
@@ -312,7 +312,7 @@ ingress:
   ## @param ingress.hostName Ingress hostname (your custom domain name, e.g. `infisical.example.org`)
   ## Replace with your own domain
   ##
-  hostName: ""
+  hostName: "infisical-avaxiadev.com"
   ## @skip ingress.frontend
   ##
   frontend:
