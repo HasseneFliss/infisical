@@ -153,7 +153,7 @@ backendEnvironmentVariables:
   SMTP_FROM_NAME: Infisical
   SMTP_FROM_ADDRESS: "hassen.fliss@avaxia-group.com"
   SMTP_USERNAME: "hassen.fliss@avaxia-group.com"
-  SMTP_PASSWORD: "rollway31@"
+  SMTP_PASSWORD: "@"
   ## @param backendEnvironmentVariables.SITE_URL Absolute URL including the protocol (e.g. https://app.infisical.com)
   ##
   SITE_URL: infisical.local
